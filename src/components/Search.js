@@ -5,13 +5,13 @@ const Search = ({ getTime }) => {
     return (
         <div>
             <form>
-                <input className='input f4 tc pointer shadow-5 ' type='Date'
-                onKeyPress={(ev) => {
-                    if (ev.key === "Enter") {
-                      ev.preventDefault();
-                      getTime(ev.target.value);
-                    }
-                  }}
+                <input className='input f4 tc pointer shadow-5 ' type='Date' onChange={(e)=>getTime(e.target.value)}
+                // onKeyPress={(ev) => {
+                //     if (ev.key === "Enter") {
+                //       ev.preventDefault();
+                //       getTime(ev.target.value);
+                //     }
+                //   }}
                 required />
             </form>
         </div>
