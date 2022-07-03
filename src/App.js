@@ -1,7 +1,7 @@
 
 
 import moment from 'moment';
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Search from './components/Search';
 import Time from './components/Time';
