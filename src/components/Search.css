@@ -1,0 +1,13 @@
+.input{
+    width: 50%;
+    height: 40px;
+    background: none;
+    border:1px solid white;
+    border-radius: 100px;
+    color:white;
+
+}
+::placeholder{
+    color: white;
+    text-transform: uppercase;
+}
